@@ -4,7 +4,7 @@ BuzzFeed performed an FOA request and got fourty years of federal employment dat
 code that will read in, tidy, and mutate the fixed with files provided in this dataset into an 
 R data source file which is faster and easier to work with than the provided fixed width files.  This project also contains code that does analyis can charting of a portion of the data.
 
-This code is posted for personal use, but public in the event it will help someone else looking to explore this dataset.
+This code is posted for personal use, but public in the event it will help someone else looking to explore this dataset.  If you have any questions about usage feel free to message me.
 
 Data Source: https://archive.org/details/opm-federal-employment-data
 
@@ -33,7 +33,7 @@ When authoring the dataset creation code, I had to work around the limited natur
 To re-create the dataset these steps should be taken:
 
 1.	Download and extract the text files from here: https://archive.org/details/opm-federal-employment-data
-2.	Extract the R source files from the accompanying zip file
+2.	Clone the GitHub repository to obtain the R Source Files
 3.	Edit OPMEntryPoint.R, the file contains constants used in parsing that need to be set:
     1.	sctfile – should be the full path and filename to SCTFILE.TXT in the dataset
     2.	fileroot – should be the path to the root of the 1973 to 2014 dataset
@@ -45,5 +45,5 @@ To re-create the dataset these steps should be taken:
     3.	"Model file generated"- will appear when the final model dataset has been generated
 
 When the string “Model file generated” is output the code has successfully parsed the text files and from then on OPMEntryPoint.R will load from an R data source and not the text files unless the variable refresh is set to TRUE.  This loading from an R data source only takes a few minutes to execute so it can be done frequently.
-With the dataset created the files OPMChartsAndGraphs.R, OPMSEC.R, and OPMVA.R can be executed, either in whole or in part to generate the charts that appear in the report.  These files have a small block of summary creation code at their start which is followed by blocks of code for each chart that is generated.
+With the dataset created the files OPMChartsAndGraphs.R, OPMSEC.R, and OPMVA.R can be executed, either in whole or in part to generate analysis charts.  These files have a small block of summary creation code at their start which is followed by blocks of code for each chart that is generated.
 
