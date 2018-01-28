@@ -1,4 +1,4 @@
-# ropm
+# R code for OPM Salary Data analysis
 
 BuzzFeed performed an FOA request and got fourty years of federal employment data.  This project is R
 code that will read in, tidy, and mutate the fixed with files provided in this dataset into an 
