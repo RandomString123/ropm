@@ -1,5 +1,5 @@
 # OPMSEC - Charts and Graphs for the Securites and Exchange Comission
-#    Copyright (C) 2017  Matthew Churilla (matthew.churilla@outlook.com)
+#    By  Matthew Churilla (matthew.churilla@outlook.com)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
