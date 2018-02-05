@@ -19,9 +19,9 @@ refresh <- FALSE
 # Set this to true to install packages from the internet
 install <- TRUE
 # Hardcode a location to the sctfile here.
-sctfile <- "c://Users/matth/Desktop/data/1973-09-to-2014-06/SCTFILE.TXT"
+sctfile <- "c://Users/ME/Desktop/data/1973-09-to-2014-06/SCTFILE.TXT"
 # This is the location of the root of the files
-fileroot <- "c://Users/matth/Desktop/data/1973-09-to-2014-06"
+fileroot <- "c://Users/ME/Desktop/data/1973-09-to-2014-06"
 
 # Location of files of interest within our root
 subdir <- "/non-dod/status"

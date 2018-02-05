@@ -15,9 +15,9 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 if (install) { 
-    install.packages("dplyr", repos = "http://mran.revolutionanalytics.com")
-    install.packages("tidyverse", repos = "http://mran.revolutionanalytics.com")
-    install.packages("reshape2", repos = "http://mran.revolutionanalytics.com")
+    install.packages("dplyr") #repos = "http://mran.revolutionanalytics.com")
+    install.packages("tidyverse") #repos = "http://mran.revolutionanalytics.com")
+    install.packages("reshape2") #repos = "http://mran.revolutionanalytics.com")
 }
 
 source("OPMFileParsing.R")
