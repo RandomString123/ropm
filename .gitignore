@@ -16,8 +16,11 @@
 
 # RStudio files
 .Rproj.user/
+
+#Visual Studio Files
 *.rproj
 *.rxproj
+*.sln
 
 
 # produced vignettes
